@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">THLab2</string>
+    <string name="txt_loading">Loading...</string>
+
+    <string name="txt_name">Danh Nguyen</string>
+    <string name="txt_phone1">0389 397 975</string>
+    <string name="txt_title_mobile">Mobile</string>
+    <string name="txt_phone2">(323) 555-6789</string>
+    <string name="txt_email">Dn535@gmail.com</string>
+
+</resources>

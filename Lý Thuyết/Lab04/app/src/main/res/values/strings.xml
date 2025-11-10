@@ -1,0 +1,5 @@
+<resources>
+    <!-- Các chuỗi văn bản cho ứng dụng -->
+    <string name="app_name">SMS Receiver App</string>
+    <string name="you_have_a_new_message">You have a new message</string>
+</resources>

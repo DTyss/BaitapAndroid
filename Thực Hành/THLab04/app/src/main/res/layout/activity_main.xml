@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#0D47A1"
+    android:gravity="center"
+    android:padding="32dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="THLab04\nAdvanced UI Design"
+        android:textColor="#FFFFFF"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="60dp"/>
+
+    <!-- Nút Bài 1 -->
+    <Button
+        android:id="@+id/btn_bai1"
+        android:layout_width="320dp"
+        android:layout_height="90dp"
+        android:text="BÀI 1\nLogin + Custom Toast"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:background="#FF5722"
+        android:drawablePadding="20dp"
+        android:gravity="center|start"
+        android:paddingStart="32dp"
+        android:layout_marginBottom="24dp"/>
+
+    <!-- Nút Bài 2 -->
+    <Button
+        android:id="@+id/btn_bai2"
+        android:layout_width="320dp"
+        android:layout_height="90dp"
+        android:text="BÀI 2\nTừ vựng + Toast"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:background="#4CAF50"
+        android:drawablePadding="20dp"
+        android:gravity="center|start"
+        android:paddingStart="32dp"
+        android:layout_marginBottom="24dp"/>
+
+    <!-- Nút Bài 3 -->
+    <Button
+        android:id="@+id/btn_bai3"
+        android:layout_width="320dp"
+        android:layout_height="90dp"
+        android:text="BÀI 3\nEmoji + Random All"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:background="#9C27B0"
+        android:drawablePadding="20dp"
+        android:gravity="center|start"
+        android:paddingStart="32dp"
+        android:layout_marginBottom="60dp"/>
+
+</LinearLayout>

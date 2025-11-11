@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Ứng dụng đa ngôn ngữ</string>
+    <string name="welcome">Xin chào</string>
+    <string name="email">Email</string>
+    <string name="password">Mật khẩu</string>
+    <string name="login">ĐĂNG NHẬP</string>
+    <string name="no_account">Không có tài khoản. Vui lòng đăng ký</string>
+    <string name="lang_vi">Tiếng Việt</string>
+    <string name="lang_en">English</string>
+    <string name="lang_fr">Français</string>
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#0D47A1"
+    android:gravity="center"
+    android:padding="32dp">
+
+    <!-- Tiêu đề app -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="THLab03 - Bài tập"
+        android:textColor="#FFFFFF"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="80dp"/>
+
+    <!-- Nút Bài tập 1 -->
+    <Button
+        android:id="@+id/btn_baitap1"
+        android:layout_width="280dp"
+        android:layout_height="80dp"
+        android:text="Bài 1\nKhóa xoay màn hình"
+        android:textSize="18sp"
+        android:textColor="#0D47A1"
+        android:background="#FFFFFF"
+        android:layout_marginBottom="32dp"
+        android:drawablePadding="16dp"
+        android:gravity="center"
+        android:paddingStart="24dp"/>
+
+    <!-- Nút Bài tập 2 -->
+    <Button
+        android:id="@+id/btn_baitap2"
+        android:layout_width="280dp"
+        android:layout_height="80dp"
+        android:text="Bài 2\nĐa ngôn ngữ (3 languages)"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:background="#FF4081"
+        android:drawablePadding="16dp"
+        android:gravity="center"
+        android:paddingStart="24dp"/>
+
+</LinearLayout>

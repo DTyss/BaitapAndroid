@@ -1,0 +1,97 @@
+<resources>
+    <string name="app_name">THLab04</string>
+
+    <string name="txt_mess">Essentials</string>
+    <string name="txt_flight">While Traveling</string>
+    <string name="txt_hospital">Help / Medical</string>
+    <string name="txt_hotel">At the hotel</string>
+    <string name="txt_restaurant">At the Restaurant</string>
+    <string name="txt_coctail">At the Bar</string>
+    <string name="txt_store">At the Store</string>
+    <string name="txt_work">Work</string>
+    <string name="txt_time">Time</string>
+    <string name="txt_education">Education</string>
+    <string name="txt_movie">Entertainment</string>
+
+    <string-array name="vocab_mess">
+        <item>Hello</item>
+        <item>Goodbye</item>
+        <item>Thank you</item>
+        <item>Please</item>
+        <item>Sorry</item>
+    </string-array>
+    <string-array name="vocab_flight">
+        <item>Airport</item>
+        <item>Ticket</item>
+        <item>Passport</item>
+        <item>Luggage</item>
+        <item>Boarding</item>
+    </string-array>
+    <string-array name="vocab_hospital">
+        <item>Doctor</item>
+        <item>Nurse</item>
+        <item>Medicine</item>
+        <item>Hospital</item>
+        <item>Pain</item>
+    </string-array>
+    <string-array name="vocab_hotel">
+        <item>Reservation</item>
+        <item>Room</item>
+        <item>Key</item>
+        <item>Reception</item>
+        <item>Guest</item>
+    </string-array>
+    <string-array name="vocab_restaurant">
+        <item>Menu</item>
+        <item>Waiter</item>
+        <item>Bill</item>
+        <item>Table</item>
+        <item>Order</item>
+    </string-array>
+    <string-array name="vocab_coctail">
+        <item>Drink</item>
+        <item>Juice</item>
+        <item>Ice</item>
+        <item>Glass</item>
+        <item>Cheers</item>
+    </string-array>
+    <string-array name="vocab_store">
+        <item>Shop</item>
+        <item>Price</item>
+        <item>Cashier</item>
+        <item>Discount</item>
+        <item>Customer</item>
+    </string-array>
+    <string-array name="vocab_work">
+        <item>Office</item>
+        <item>Boss</item>
+        <item>Meeting</item>
+        <item>Deadline</item>
+        <item>Project</item>
+    </string-array>
+    <string-array name="vocab_time">
+        <item>Morning</item>
+        <item>Afternoon</item>
+        <item>Evening</item>
+        <item>Night</item>
+        <item>Yesterday</item>
+        <item>Tomorrow</item>
+    </string-array>
+    <string-array name="vocab_education">
+        <item>Student</item>
+        <item>Teacher</item>
+        <item>School</item>
+        <item>Classroom</item>
+        <item>Homework</item>
+        <item>Exam</item>
+    </string-array>
+    <string-array name="vocab_movie">
+        <item>Actor</item>
+        <item>Scene</item>
+        <item>Camera</item>
+        <item>Director</item>
+        <item>Film</item>
+        <item>Popcorn</item>
+    </string-array>
+
+</resources>

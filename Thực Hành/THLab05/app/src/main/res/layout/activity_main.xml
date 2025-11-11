@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#0D47A1"
+    android:gravity="center"
+    android:padding="32dp">
+
+    <!-- Tiêu đề -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="THLab05\nAnimation &amp; Quick Call"
+        android:textColor="#FFFFFF"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="60dp"/>
+
+    <!-- Nút Bài 1 -->
+    <Button
+        android:id="@+id/btn_bai1"
+        android:layout_width="340dp"
+        android:layout_height="100dp"
+        android:text="BÀI 1\nAnimation + Random"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:background="#FF5722"
+        android:drawablePadding="24dp"
+        android:gravity="center|start"
+        android:paddingStart="40dp"
+        android:layout_marginBottom="30dp"
+        android:elevation="8dp"/>
+
+    <!-- Nút Bài 2 -->
+    <Button
+        android:id="@+id/btn_bai2"
+        android:layout_width="340dp"
+        android:layout_height="100dp"
+        android:text="BÀI 2\nQuick Call + Animation"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:background="#4CAF50"
+        android:drawablePadding="24dp"
+        android:gravity="center|start"
+        android:paddingStart="40dp"
+        android:layout_marginBottom="80dp"
+        android:elevation="8dp"/>
+
+
+</LinearLayout>

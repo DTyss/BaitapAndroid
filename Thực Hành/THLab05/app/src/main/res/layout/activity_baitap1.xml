@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="20dp"
+    android:background="#FFF3E0">
+
+    <ImageView
+        android:id="@+id/iv_animal"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/ic_elephant"/>
+
+    <!-- Nút Random -->
+    <Button
+        android:id="@+id/btn_random"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/txt_random"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/bg_button"/>
+
+    <!-- 4 nút animation -->
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp">
+
+        <Button android:id="@+id/btn_alpha"  android:text="@string/txt_alpha"  style="@style/Widget.AppCompat.Button.Colored"/>
+        <Button android:id="@+id/btn_scale"  android:text="@string/txt_scale"  android:layout_marginStart="8dp" style="@style/Widget.AppCompat.Button.Colored"/>
+        <Button android:id="@+id/btn_trans"  android:text="@string/txt_trans"  android:layout_marginStart="8dp" style="@style/Widget.AppCompat.Button.Colored"/>
+        <Button android:id="@+id/btn_rotate" android:text="@string/txt_rotate" android:layout_marginStart="8dp" style="@style/Widget.AppCompat.Button.Colored"/>
+    </TableRow>
+</LinearLayout>

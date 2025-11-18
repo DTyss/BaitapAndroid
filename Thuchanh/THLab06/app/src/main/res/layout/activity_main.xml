@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="#F5F5F5">
+
+    <!-- Tiêu đề nhỏ -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Đổi đơn vị đo chiều dài"
+        android:textSize="18sp"
+        android:textColor="#00695C"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="32dp"/>
+
+    <!-- Ô nhập số -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editTextNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:hint="@string/textbox_hint"
+            android:textSize="22sp"
+            android:textAlignment="center"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Spinner
+        android:id="@+id/spinnerFrom"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@drawable/spinner_background"
+        android:layout_marginBottom="16dp" />
+
+    <ImageView
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@android:drawable/arrow_down_float"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="8dp"
+        app:tint="#00695C"/>
+
+    <TextView
+        android:id="@+id/tvResult"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="0.000000"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:textColor="#00695C"
+        android:gravity="center"
+        android:background="#FFFFFF"
+        android:elevation="4dp"
+        android:layout_marginBottom="16dp"
+        android:padding="16dp"/>
+
+    <Spinner
+        android:id="@+id/spinnerTo"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@drawable/spinner_background" />
+
+</LinearLayout>

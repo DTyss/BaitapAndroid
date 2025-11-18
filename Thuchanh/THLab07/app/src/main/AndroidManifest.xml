@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.danh.thlab07">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Lab 7 - Custom Controls"
+        android:theme="@style/Theme.ThLab07">
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Bài tập 1: Custom Button -->
+        <activity
+            android:name=".Baitap1Activity"
+            android:exported="false"
+            android:label="Bài 1 - Custom Button" />
+
+        <!-- Bài tập 2: Custom Toast + Dialog -->
+        <activity
+            android:name=".Baitap2Activity"
+            android:exported="false"
+            android:label="Bài 2 - Custom Toast, Dialog" />
+
+        <!-- Bài tập 3: RGB - CMY SeekBar -->
+        <activity
+            android:name=".Baitap3Activity"
+            android:exported="false"
+            android:label="Bài 3 - RGB, CMY" />
+
+    </application>
+
+</manifest>

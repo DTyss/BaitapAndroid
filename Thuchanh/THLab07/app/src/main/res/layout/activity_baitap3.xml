@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose Color"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#1976D2"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="30dp"/>
+
+    <View
+        android:id="@+id/viewColor"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:background="#FF0000"
+        android:layout_marginBottom="30dp"
+        android:elevation="8dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RGB"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#333333"
+        android:layout_marginBottom="12dp"/>
+
+    <SeekBar
+        android:id="@+id/sbRed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="255"
+        android:progress="255"
+        android:progressDrawable="@drawable/seekbar_red"
+        android:thumb="@drawable/thumb_custom"
+        android:layout_marginBottom="16dp"/>
+
+    <SeekBar
+        android:id="@+id/sbGreen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="255"
+        android:progress="0"
+        android:progressDrawable="@drawable/seekbar_green"
+        android:thumb="@drawable/thumb_custom"
+        android:layout_marginBottom="16dp"/>
+
+    <SeekBar
+        android:id="@+id/sbBlue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="255"
+        android:progress="0"
+        android:progressDrawable="@drawable/seekbar_blue"
+        android:thumb="@drawable/thumb_custom"
+        android:layout_marginBottom="30dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CMY"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#333333"
+        android:layout_marginBottom="12dp"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:layout_marginBottom="20dp">
+
+        <View
+            android:id="@+id/viewC"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#00FFFF"
+            android:layout_marginEnd="8dp"
+            android:elevation="4dp"/>
+
+        <View
+            android:id="@+id/viewM"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#FF00FF"
+            android:layout_marginHorizontal="8dp"
+            android:elevation="4dp"/>
+
+        <View
+            android:id="@+id/viewY"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#FFFF00"
+            android:layout_marginStart="8dp"
+            android:elevation="4dp"/>
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/tvValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="R: 255 | G: 0 | B: 0"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="#1976D2"
+        android:background="#EEEEEE"
+        android:padding="12dp"/>
+</LinearLayout>

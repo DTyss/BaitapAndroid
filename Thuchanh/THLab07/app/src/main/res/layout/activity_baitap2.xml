@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Custom Button"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#2196F3"
+        android:layout_marginBottom="24dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_marginBottom="30dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Selectors"
+                android:textStyle="italic|bold"
+                android:textSize="18sp"
+                android:layout_marginBottom="8dp"/>
+
+            <Button
+                android:id="@+id/btnColoredSelector"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Colored Selector"
+                android:background="@drawable/btn_bg_selector"
+                android:padding="8dp"
+                android:layout_margin="8dp"
+                android:textColor="@android:color/white"/>
+
+            <Button
+                android:id="@+id/btnColorDisabled"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Color Selector Disabled"
+                android:background="@drawable/btn_bg_selector_disabled"
+                android:padding="8dp"
+                android:layout_margin="8dp"
+                android:textColor="@android:color/white"
+                android:enabled="false"/>
+
+            <Button
+                android:id="@+id/btnDrawableSelector"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:background="@drawable/btn_drawable_selector"
+                android:padding="16dp"
+                android:layout_margin="8dp"/>
+
+            <Button
+                android:id="@+id/btnLeftEmoji"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:background="@drawable/btn_left_selector"
+                android:layout_margin="8dp"
+                android:contentDescription="Emoji Left" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Shapes"
+                android:textStyle="italic|bold"
+                android:textSize="18sp"
+                android:layout_marginBottom="8dp"/>
+
+            <Button
+                android:id="@+id/btnRoundShape"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ROUND SHAPE"
+                android:background="@drawable/btn_shape_round"
+                android:padding="8dp"
+                android:layout_margin="8dp"
+                android:textColor="@android:color/black"/>
+
+            <Button
+                android:id="@+id/btnGradientShape"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SHAPE WITH GRADIENT"
+                android:background="@drawable/btn_shape_gradient"
+                android:padding="8dp"
+                android:layout_margin="8dp"
+                android:textColor="@android:color/black"/>
+
+            <Button
+                android:id="@+id/btnSelectorShape"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SELECTOR SHAPE"
+                android:background="@drawable/btn_selector_shape"
+                android:padding="8dp"
+                android:layout_margin="8dp"
+                android:textColor="@android:color/white"/>
+
+            <Button
+                android:id="@+id/btnRightEmoji"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:background="@drawable/btn_right_selector"
+                android:layout_margin="8dp"
+                android:contentDescription="Emoji Right" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="40dp">
+
+        <Button
+            android:id="@+id/btnCustomToast"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:background="@drawable/btn_custom_toast"
+            android:text="Custom\nToast"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginEnd="40dp"
+            android:elevation="12dp"/>
+
+        <Button
+            android:id="@+id/btnCustomDialog"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:background="@drawable/btn_custom_dialog"
+            android:text="Custom\nDialog"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:elevation="12dp"/>
+    </LinearLayout>
+
+</LinearLayout>

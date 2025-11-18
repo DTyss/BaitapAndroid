@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Đổi đơn vị đo chiều dài</string>
+    <string name="author">Nguyễn Thành Danh</string>
+    <string name="computer">LAPTOP-ACER</string>
+    <string name="textbox_hint">Nhập độ dài</string>
+
+    <!-- Tên đơn vị -->
+    <string name="hai_ly">Hải lý</string>
+    <string name="dam">Dặm</string>
+    <string name="km">Kilômét</string>
+    <string name="ly">Lý</string>
+    <string name="met">Mét</string>
+    <string name="yard">Yard</string>
+    <string name="foot">Foot</string>
+    <string name="inch">Inch</string>
+
+    <!-- Ký hiệu đơn vị (dùng để hiển thị) -->
+    <string name="hai_ly_unit">Hải lý</string>
+    <string name="dam_unit">Dặm</string>
+    <string name="km_unit">Km</string>
+    <string name="ly_unit">Lý</string>
+    <string name="met_unit">Met</string>
+    <string name="yard_unit">Yard</string>
+    <string name="foot_unit">Foot</string>
+    <string name="inch_unit">Inch</string>
+</resources>
